@@ -1,0 +1,489 @@
+  [
+    {
+      "_id": "1",
+      "name": "Spaghetti Carbonara",
+      "category": "Main Course",
+      "detailsDescription": "Classic Italian pasta dish with creamy egg sauce, bacon, and Parmesan cheese.",
+      "price": 12.99,
+      "totalQuantity": 40,
+      "soldQuantity": 20,
+      "productCode": "SC101",
+      "tags": ["Italian", "Pasta", "Creamy"],
+      "timing": "Dinner",
+      "rating": 4.7,
+      "reviewers": [
+        {
+          "name": "Sophia Anderson",
+          "date": "2024-02-24",
+          "comments": "Absolutely delicious!",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "William Johnson",
+          "date": "2024-02-25",
+          "comments": "Authentic taste!",
+          "image": "https://via.placeholder.com/150"
+        }
+      ]
+    },
+    {
+      "_id": "2",
+      "name": "Caesar Salad",
+      "category": "Appetizer",
+      "detailsDescription": "Classic Caesar salad with romaine lettuce, croutons, and parmesan cheese.",
+      "price": 7.99,
+      "totalQuantity": 30,
+      "soldQuantity": 15,
+      "productCode": "CS102",
+      "tags": ["Salad", "Healthy", "Vegetarian"],
+      "timing": "Dinner",
+      "rating": 4.4,
+      "reviewers": [
+        {
+          "name": "Emma Smith",
+          "date": "2024-02-26",
+          "comments": "Fresh and crisp!",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "James Brown",
+          "date": "2024-02-27",
+          "comments": "Could use more dressing.",
+          "image": "https://via.placeholder.com/150"
+        }
+      ]
+    },
+    {
+      "_id": "3",
+      "name": "Margarita Pizza",
+      "category": "Main Course",
+      "detailsDescription": "Traditional Italian pizza with tomato sauce, mozzarella cheese, and fresh basil.",
+      "price": 9.99,
+      "totalQuantity": 35,
+      "soldQuantity": 20,
+      "productCode": "MP103",
+      "tags": ["Pizza", "Italian", "Cheese"],
+      "timing": "Dinner",
+      "rating": 4.6,
+      "reviewers": [
+        {
+          "name": "Olivia Taylor",
+          "date": "2024-02-28",
+          "comments": "Perfectly baked crust!",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Michael Wilson",
+          "date": "2024-02-29",
+          "comments": "Delicious and satisfying.",
+          "image": "https://via.placeholder.com/150"
+        }
+      ]
+    },
+    {
+      "_id": "4",
+      "name": "Chicken Tikka Masala",
+      "category": "Main Course",
+      "detailsDescription": "Tender chicken pieces cooked in a creamy tomato-based sauce with Indian spices.",
+      "price": 11.99,
+      "totalQuantity": 40,
+      "soldQuantity": 25,
+      "productCode": "CTM104",
+      "tags": ["Indian", "Chicken", "Curry"],
+      "timing": "Dinner",
+      "rating": 4.8,
+      "reviewers": [
+        {
+          "name": "Noah Miller",
+          "date": "2024-03-01",
+          "comments": "Incredible flavors!",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Isabella Brown",
+          "date": "2024-03-02",
+          "comments": "Could be spicier.",
+          "image": "https://via.placeholder.com/150"
+        }
+      ]
+    },
+    {
+      "_id": "5",
+      "name": "Chocolate Brownie",
+      "category": "Dessert",
+      "detailsDescription": "Rich and gooey chocolate brownie served with vanilla ice cream.",
+      "price": 6.99,
+      "totalQuantity": 25,
+      "soldQuantity": 10,
+      "productCode": "CB105",
+      "tags": ["Dessert", "Chocolate", "Sweet"],
+      "timing": "Dinner",
+      "rating": 4.5,
+      "reviewers": [
+        {
+          "name": "Jacob Martinez",
+          "date": "2024-03-03",
+          "comments": "Decadent dessert!",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Sophie Johnson",
+          "date": "2024-03-04",
+          "comments": "Perfectly indulgent.",
+          "image": "https://via.placeholder.com/150"
+        }
+      ]
+    },
+    {
+      "_id": "6",
+      "name": "Chicken Caesar Wrap",
+      "category": "Main Course",
+      "detailsDescription": "Grilled chicken with Caesar salad wrapped in a flour tortilla.",
+      "price": 8.99,
+      "totalQuantity": 30,
+      "soldQuantity": 15,
+      "productCode": "CC106",
+      "tags": ["Wrap", "Chicken", "Lunch"],
+      "timing": "Dinner",
+      "rating": 4.3,
+      "reviewers": [
+        {
+          "name": "Ethan Clark",
+          "date": "2024-03-05",
+          "comments": "Delicious and filling!",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Ava Thompson",
+          "date": "2024-03-06",
+          "comments": "Could use more chicken.",
+          "image": "https://via.placeholder.com/150"
+        }
+      ]
+    },
+    {
+      "_id": "7",
+      "name": "Caprese Salad",
+      "category": "Appetizer",
+      "detailsDescription": "Fresh mozzarella, tomatoes, and basil seasoned with olive oil and balsamic glaze.",
+      "price": 9.99,
+      "totalQuantity": 35,
+      "soldQuantity": 20,
+      "productCode": "CA107",
+      "tags": ["Salad", "Italian", "Vegetarian"],
+      "timing": "Lunch",
+      "rating": 4.7,
+      "reviewers": [
+        {
+          "name": "Mia Davis",
+          "date": "2024-03-07",
+          "comments": "Simple yet delicious.",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Noah Martinez",
+          "date": "2024-03-08",
+          "comments": "Fresh ingredients.",
+          "image": "https://via.placeholder.com/150"
+        }
+      ]
+    },
+    {
+      "_id": "8",
+      "name": "Margherita Cocktail",
+      "category": "Beverage",
+      "detailsDescription": "Classic cocktail made with tequila, lime juice, and triple sec.",
+      "price": 7.99,
+      "totalQuantity": 40,
+      "soldQuantity": 25,
+      "productCode": "MC108",
+      "tags": ["Cocktail", "Tequila", "Happy Hour"],
+      "timing": "Lunch",
+      "rating": 4.4,
+      "reviewers": [
+        {
+          "name": "Oliver White",
+          "date": "2024-03-09",
+          "comments": "Refreshing drink!",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Sophia Brown",
+          "date": "2024-03-10",
+          "comments": "Could be stronger.",
+          "image": "https://via.placeholder.com/150"
+        }
+      ]
+    },
+    {
+      "_id": "9",
+      "name": "Beef Burger",
+      "category": "Main Course",
+      "detailsDescription": "Juicy beef patty served with lettuce, tomato, and pickles in a sesame seed bun.",
+      "price": 11.99,
+      "totalQuantity": 30,
+      "soldQuantity": 15,
+      "productCode": "BB109",
+      "tags": ["Burger", "Beef", "American"],
+      "timing": "Lunch",
+      "rating": 4.6,
+      "reviewers": [
+        {
+          "name": "William Thompson",
+          "date": "2024-03-11",
+          "comments": "Delicious burger!",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Isabella Harris",
+          "date": "2024-03-12",
+          "comments": "Satisfying meal.",
+          "image": "https://via.placeholder.com/150"
+        }
+      ]
+    },
+    {
+      "_id": "10",
+      "name": "Fish and Chips",
+      "category": "Main Course",
+      "detailsDescription": "Crispy battered fish served with thick-cut fries.",
+      "price": 13.99,
+      "totalQuantity": 25,
+      "soldQuantity": 10,
+      "productCode": "FC110",
+      "tags": ["Seafood", "British", "Fried"],
+      "timing": "Lunch",
+      "rating": 4.5,
+      "reviewers": [
+        {
+          "name": "Ella Johnson",
+          "date": "2024-03-13",
+          "comments": "Authentic taste of England!",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Jack Davis",
+          "date": "2024-03-14",
+          "comments": "Could be crispier.",
+          "image": "https://via.placeholder.com/150"
+        }
+      ]
+    },
+    {
+      "_id": "11",
+      "name": "Tom Yum Soup",
+      "category": "Appetizer",
+      "detailsDescription": "Spicy Thai soup with shrimp, mushrooms, and lemongrass.",
+      "price": 8.99,
+      "totalQuantity": 25,
+      "soldQuantity": 15,
+      "productCode": "TYS111",
+      "tags": ["Thai", "Spicy", "Soup"],
+      "timing": "Lunch",
+      "rating": 4.3,
+      "reviewers": [
+        {
+          "name": "Lucas Brown",
+          "date": "2024-03-15",
+          "comments": "Authentic flavors!",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Olivia Martinez",
+          "date": "2024-03-16",
+          "comments": "Spicy and satisfying.",
+          "image": "https://via.placeholder.com/150"
+        }
+      ]
+    },
+    {
+      "_id": "12",
+      "name": "Falafel Wrap",
+      "category": "Main Course",
+      "detailsDescription": "Falafel balls wrapped in pita bread with hummus, lettuce, and tomato.",
+      "price": 8.99,
+      "totalQuantity": 30,
+      "soldQuantity": 20,
+      "productCode": "FW112",
+      "tags": ["Wrap", "Falafel", "Middle Eastern"],
+      "timing": "Lunch",
+      "rating": 4.2,
+      "reviewers": [
+        {
+          "name": "Ethan Johnson",
+          "date": "2024-03-17",
+          "comments": "Great vegetarian option!",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Sophia Davis",
+          "date": "2024-03-18",
+          "comments": "Could use more sauce.",
+          "image": "https://via.placeholder.com/150"
+        }
+      ]
+    },
+    {
+      "_id": "13",
+      "name": "Sushi Platter",
+      "category": "Appetizer",
+      "detailsDescription": "Assorted sushi served with soy sauce and wasabi.",
+      "price": 15.99,
+      "totalQuantity": 30,
+      "soldQuantity": 10,
+      "productCode": "SP113",
+      "tags": ["Japanese", "Sushi", "Raw"],
+      "timing": "happyHour",
+      "rating": 4.8,
+      "reviewers": [
+        {
+          "name": "Liam Martinez",
+          "date": "2024-03-19",
+          "comments": "Fresh and tasty!",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Emma Wilson",
+          "date": "2024-03-20",
+          "comments": "Good selection of sushi.",
+          "image": "https://via.placeholder.com/150"
+        }
+      ]
+    },
+    {
+      "_id": "14",
+      "name": "Pad Thai",
+      "category": "Main Course",
+      "detailsDescription": "Thai stir-fried noodles with tofu, bean sprouts, and peanuts.",
+      "price": 10.99,
+      "totalQuantity": 35,
+      "soldQuantity": 15,
+      "productCode": "PT114",
+      "tags": ["Thai", "Noodles", "Spicy"],
+      "timing": "happyHour",
+      "rating": 4.5,
+      "reviewers": [
+        {
+          "name": "Isabella Thomas",
+          "date": "2024-03-21",
+          "comments": "Authentic flavors!",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "James Wilson",
+          "date": "2024-03-22",
+          "comments": "Perfectly balanced.",
+          "image": "https://via.placeholder.com/150"
+        }
+      ]
+    },
+    {
+      "_id": "15",
+      "name": "Tiramisu",
+      "category": "Dessert",
+      "detailsDescription": "Classic Italian dessert made with layers of coffee-soaked ladyfingers and mascarpone cheese.",
+      "price": 7.99,
+      "totalQuantity": 20,
+      "soldQuantity": 10,
+      "productCode": "TM115",
+      "tags": ["Dessert", "Italian", "Coffee"],
+      "timing": "happyHour",
+      "rating": 4.6,
+      "reviewers": [
+        {
+          "name": "Oliver Brown",
+          "date": "2024-03-23",
+          "comments": "Perfectly balanced flavors!",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Sophia Johnson",
+          "date": "2024-03-24",
+          "comments": "Could be more moist.",
+          "image": "https://via.placeholder.com/150"
+        }
+      ]
+    },
+    {
+      "_id": "16",
+      "name": "Chicken Quesadilla",
+      "category": "Main Course",
+      "detailsDescription": "Grilled chicken and cheese stuffed in a flour tortilla, served with salsa and sour cream.",
+      "price": 9.99,
+      "totalQuantity": 25,
+      "soldQuantity": 10,
+      "productCode": "CQ116",
+      "tags": ["Mexican", "Chicken", "Cheese"],
+      "timing": "happyHour",
+      "rating": 4.3,
+      "reviewers": [
+        {
+          "name": "Jack Martinez",
+          "date": "2024-03-25",
+          "comments": "Delicious and cheesy!",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Emma Harris",
+          "date": "2024-03-26",
+          "comments": "Could use more filling.",
+          "image": "https://via.placeholder.com/150"
+        }
+      ]
+    },
+    {
+      "_id": "17",
+      "name": "Garden Salad",
+      "category": "Appetizer",
+      "detailsDescription": "Fresh mixed greens with cherry tomatoes, cucumbers, and balsamic vinaigrette.",
+      "price": 6.99,
+      "totalQuantity": 40,
+      "soldQuantity": 20,
+      "productCode": "GS117",
+      "tags": ["Salad", "Healthy", "Vegetarian"],
+      "timing": "happyHour",
+      "rating": 4.7,
+      "reviewers": [
+        {
+          "name": "William Thomas",
+          "date": "2024-03-27",
+          "comments": "Simple and refreshing!",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "Ava Johnson",
+          "date": "2024-03-28",
+          "comments": "Great combination of flavors.",
+          "image": "https://via.placeholder.com/150"
+        }
+      ]
+    },
+    {
+      "_id": "18",
+      "name": "Chocolate Milkshake",
+      "category": "Beverage",
+      "detailsDescription": "Creamy chocolate milkshake topped with whipped cream.",
+      "price": 5.99,
+      "totalQuantity": 30,
+      "soldQuantity": 15,
+      "productCode": "CM118",
+      "tags": ["Beverage", "Chocolate", "Sweet"],
+      "timing": "happyHour",
+      "rating": 4.4,
+      "reviewers": [
+        {
+          "name": "Ella Martinez",
+          "date": "2024-03-29",
+          "comments": "Indulgent treat!",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "name": "James Wilson",
+          "date": "2024-03-30",
+          "comments": "Could be colder.",
+          "image": "https://via.placeholder.com/150"
+        }
+      ]
+    }
+  ]
+  
